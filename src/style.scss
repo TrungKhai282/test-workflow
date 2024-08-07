@@ -1,0 +1,23 @@
+.flowchart-module {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .node {
+    .label-container {
+      transition: all ease 0.1s;
+      // fill: rgb(230, 244, 255) !important;
+      // stroke: rgb(22, 119, 255) !important;
+    }
+    &.active {
+      .label-container {
+        fill: rgba(#9370db, 0.4) !important;
+      }
+    }
+  }
+}
+
+.workflow-layout {
+  background: none;
+  padding: 24px;
+}
